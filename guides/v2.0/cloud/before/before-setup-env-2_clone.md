@@ -37,7 +37,7 @@ To clone the project's `master` environment:
 		magento-cloud environment:list
 
 	<div class="bs-callout bs-callout-info" id="info" markdown="1">
-	`magento-cloud environment:list` displays environment hierarchies whereas `git branch` displays does not. If you have any nested environments, use `magento-cloud environment:list`.
+	`magento-cloud environment:list` displays environment hierarchies whereas `git branch` does not. If you have any nested environments, use `magento-cloud environment:list`.
 	</div>
 
 5.	Fetch origin branches:
