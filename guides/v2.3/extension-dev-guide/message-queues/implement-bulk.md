@@ -318,7 +318,7 @@ The `queue_consumer.xml` file defines the relationship between a queue and its c
 
 {% highlight xml %}
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework-message-queue:etc/consumer.xsd">
-    <consumer name="<consumer_name>" queue="<queue_name>" connection="amqp" consumerInstance="Magento\Framework\MessageQueue\Consumer" handler="<Consumer_Class>::<Consumer_method>"/>
+    <consumer name="<consumer_name>" queue="<queue_name>" connection="amqp" consumerInstance="Magento\Framework\MessageQueue\BatchConsumer" handler="<Consumer_Class>::<Consumer_method>"/>
 </config>
 {% endhighlight %}
 
